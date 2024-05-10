@@ -1,0 +1,154 @@
+body{
+    background-color:  hsl(30, 54%, 90%);
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+
+/* Main Box */
+.box{
+    width: 736px;
+    height: 1750px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+}
+
+.image, h1 ,.content-title, .ingredients-h2 , .instructions-h2 , .nutrition-h2 ,.nutrition-p{
+    padding-left: 55px;
+}
+
+.ingredients-h2 , .instructions-h2 , .nutrition-h2{
+    padding-bottom: 20px;
+    font-family: "Young Serif", serif;
+}
+
+
+.ingredients-content, .instructions-content{
+    padding-left: 72px;
+}
+ 
+
+
+
+hr{
+    color: inherit;
+    border-width: 1px;
+    width: 620px;
+    margin-left: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%) ;
+  }
+
+
+/* Header Image */
+.image{
+    width: 92%;
+    margin-top: 2.5rem;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+h1{
+    margin-right: 57px;
+    font-family: "Young Serif", serif;
+    padding-bottom: 10px;
+}
+
+.content-title{
+    padding-bottom: 15px;
+    padding-right: 45px;
+}
+
+
+
+
+p, .nutrition{
+    color: hsl(30, 10%, 34%);
+}
+
+/* Preparation Time */
+#box{
+    height: 177px;
+    width: 85%;
+    background-color:  hsl(330, 100%, 98%);
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.preparation-h3{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-content{
+    margin-left: 10px;
+}
+
+.preparation-steps{
+    padding-left: 28px;
+}
+
+#box li::marker{
+    color: hsl(332, 51%, 32%); 
+  } 
+
+
+/* Ingredients  */
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-content, .instructions-content{
+    margin-left: 5px;
+}
+
+.ingredients-steps{
+    padding-left: 17px;
+}
+
+
+
+/* Instructions */
+
+.instructions-content{
+    padding-right: 60px;
+}
+
+.instructions-steps{
+    padding-left: 14px;
+}
+
+ol li::marker{
+    font-weight: bold;
+}
+
+
+/* Nutrition Table */
+
+.quantity{
+    color:  hsl(14, 45%, 36%);
+    padding-left: 282px;
+}
+
+.nutrition-table{
+    margin-left: 87px;
+}
+
+
+
+ 
+ 
+
