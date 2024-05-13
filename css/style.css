@@ -144,8 +144,19 @@ ol li::marker{
 }
 
 .nutrition-table{
-    margin-left: 87px;
+    width: 620px;
+    margin-left: 58px;
+    border-collapse: collapse;
 }
+tr { 
+    border: solid;
+    border-width: 1px 0;
+    color: hsl(30, 18%, 87%);
+    height: 39.6px;
+  }
+  tr:first-child {
+    border-top: none;
+  }
 
 
 
